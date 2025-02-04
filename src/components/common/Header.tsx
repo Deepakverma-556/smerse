@@ -7,9 +7,25 @@ const Header = () => {
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "auto";
   }, [open]);
+  useEffect(() => {
+    const navbar = document.getElementById("navbar");
+    if (navbar) {
+      const handleScroll = () => {
+        if (window.scrollY > 700) {
+          navbar.classList.add("!bg-black");
+        } else {
+          navbar.classList.remove("!bg-black");
+        }
+      };
+      window.addEventListener("scroll", handleScroll);
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }
+  })
 
   return (
-    <div className="py-4 max-lg:py-3 max-md:py-2 max-sm:py-[5px] bg-lightGray/50">
+    <div id="navbar" className="py-4 max-lg:py-3 max-md:py-2 max-sm:py-[5px] bg-lightGray/50 fixed top-0 w-full z-30">
       <div className="max-w-[1176px] mx-auto px-4 flex items-center justify-between">
         <a href="http://localhost:3000/">
           <img

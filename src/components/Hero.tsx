@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="bg-[url(/assets/images/webp/hero-bg.webp)] bg-cover bg-no-repeat">
       <Header />
-      <div className="max-w-[1176px] mx-auto px-4 pt-[52px] pb-[50px] max-sm:pt-28 max-sm:pb-[85px]">
+      <div className="max-w-[1176px] mx-auto px-4 pt-[152px] pb-[50px] max-sm:pt-28 max-sm:pb-[85px]">
         <Image
           src={"/assets/images/webp/hero.webp"}
           alt="hero"
