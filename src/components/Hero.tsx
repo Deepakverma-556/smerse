@@ -15,8 +15,11 @@ const Hero = () => {
           height={241}
           className="mx-auto pointer-events-none max-lg:max-w-[388px] max-lg:h-[241px] max-md:h-40 max-md:max-w-[300px] max-sm:max-w-64 max-sm:h-[154px]"
         />
-        <h1 className="font-black text-8xl tracking-[3px] max-md:text-7xl max-sm:text-[40px] max-sm:leading-[48px] leading-[115.2px] text-white text-center pt-8 pb-[10px] max-sm:pt-[108px] max-sm:pb-7">
+        <h1 className="font-black text-8xl relative tracking-[3px] max-md:text-7xl max-sm:text-[40px] max-sm:leading-[48px] leading-[115.2px] bg-gradient-to-b from-purple via-pink to-orange bg-clip-text text-transparent max-w-max mx-auto text-center pt-8 pb-[10px] max-sm:pt-[108px] max-sm:pb-7">
           SMERSE
+          <span className="font-black absolute text-8xl tracking-[3px] max-md:text-7xl max-sm:text-[40px] max-sm:leading-[48px] leading-[115.2px] text-white -top-[2px] left-[2px] text-center pt-8 pb-[10px] max-sm:pt-[108px] max-sm:pb-7">
+            SMERSE
+          </span>
         </h1>
         <p className="text-4xl tracking-[3px] max-sm:tracking-[1px] max-md:text-3xl max-sm:text-xl max-sm:leading-[30px] font-semibold leading-[54px] max-w-[637px] mx-auto text-center text-white">
           FOR A WHEALTHIER LIFESTYLE. ANYTIME, ANYWHERE
