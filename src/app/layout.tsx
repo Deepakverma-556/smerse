@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "FOR A WHEALTHIER LIFESTYLE. ANYTIME, ANYWHERE",
     images: [
       {
-        url: "./meta-tag.png",
+        url: "/meta-img.png",
         width: 800,
         height: 600,
         alt: "Smerse Branding Image",
