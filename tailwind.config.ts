@@ -10,6 +10,7 @@ export default {
     extend: {
       colors: {
         lightGray: "#0A0A2B80",
+        gray: "#222240",
         purple: "#952FFE",
         pink: "#C641C6",
         orange: "#FF676B",

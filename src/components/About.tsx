@@ -10,7 +10,7 @@ const About = () => {
         <div>
           <Heading
             text="About Us"
-            myClass="pb-7 max-lg:pb-5 max-sm:pb-[35px] relative z-20"
+            myClass="pb-7 max-lg:pb-5 max-sm:pb-[35px] relative z-20" spanClass="!top-[1.5px]"
           />
           {ABOUT_US_LIST.map((item, i) => (
             <div
