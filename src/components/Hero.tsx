@@ -9,6 +9,7 @@ const Hero = () => {
       <Header />
       <div className="max-w-[1176px] mx-auto px-4 pt-[152px] pb-[50px] max-sm:pt-28 max-sm:pb-[85px]">
         <Image
+          id="home"
           src={"/assets/images/webp/hero.webp"}
           alt="hero"
           width={404}
