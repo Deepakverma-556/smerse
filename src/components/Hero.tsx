@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="bg-[url(/assets/images/webp/hero-bg.webp)] bg-cover bg-no-repeat">
+    <div className="bg-[url(/assets/images/webp/hero-bg.webp)] hero max-sm:bg-bottom sm:bg-cover bg-no-repeat">
       <Header />
       <div className="max-w-[1176px] mx-auto px-4 pt-[152px] pb-[50px] max-sm:pt-28 max-sm:pb-[85px]">
         <Image
@@ -27,7 +27,7 @@ const Hero = () => {
         </p>
         <CustomButton
           text="Get Started"
-          myClass="!px-[28.6px] !py-4 !mx-auto !flex max-sm:!py-[12.4px] max-sm:!px-[25.1px] mt-11 max-sm:!mt-[82px]"
+          myClass="!px-[28.6px] !py-4 !mx-auto !flex max-sm:!py-[12.4px] max-sm:!px-[20.09px] mt-11 max-sm:!mt-[82px]"
         />
       </div>
       <div className="bg-gradient-to-b from-purple via-pink to-orange h-10 shadow-[0px_0px_15.01px_0px_] shadow-white/50"></div>

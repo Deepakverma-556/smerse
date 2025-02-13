@@ -31,7 +31,7 @@ const Header = () => {
           <img
             src="../assets/images/png/logo.png"
             alt="logo"
-            className="size-[68px] max-lg:size-[76px] max-md:size-12 pointer-events-none"
+            className="size-[68px] max-lg:size-[76px] max-md:size-10 ma pointer-events-none"
           />
         </a>
         <div className="flex items-center max-lg:hidden gap-[55px] max-xl:gap-7">

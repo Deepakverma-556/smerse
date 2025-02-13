@@ -13,4 +13,10 @@ html,body{
   scroll-behavior: smooth;
 }
 
+@media (max-width:639.99px) {
+  .hero {
+      background-size: 170% 100% !important;
+    }
+}
+
 
